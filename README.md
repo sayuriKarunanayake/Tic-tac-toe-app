@@ -1,1 +1,1 @@
-# Tic-tac-toe-app
+# Tic-tac-toe app
