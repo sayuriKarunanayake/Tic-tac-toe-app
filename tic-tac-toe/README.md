@@ -1,4 +1,4 @@
-# React app fro tic-tac-toe game
+# React app for tic-tac-toe game
 
 
 
