@@ -7,18 +7,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0e80b0;
+    background-color: #a334be;
 }
 .btn{
     background-color: #ffffff;
-    color: #e5dc15;
+    color: #15cde5;
     font-family: sans-serif;
     text-transform: uppercase;
     margin: 15px;
     padding: 5px;
-    border: 2px solid #e5dc15;
+    border: 2px solid #15cde5;
     border-radius: 5px;
-    box-shadow: 0 12px #c2bb11, 0 18px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 12px #11aac2, 0 18px rgba(0, 0, 0, 0.4);
     font-size: 60px;
     width: 90px;
     height: 80px;
@@ -32,8 +32,8 @@ body{
 .disabled .btn:hover{
     top: 0;
     background-color: #ffffff;
-    color: #e5dc15;
-    box-shadow:  0 12px #c2bb11, 0 18px rgba(0, 0, 0, 0.4);
+    color: #15cde5;
+    box-shadow:  0 12px #11aac2, 0 18px rgba(0, 0, 0, 0.4);
 }
 
 .btn.disabled{
@@ -42,21 +42,21 @@ body{
 .btn.disabled:hover{
     top: 0;
     background-color: #ffffff;
-    color: #e5dc15;
-    box-shadow:  0 12px #c2bb11, 0 18px rgba(0, 0, 0, 0.4);
+    color: #15cde5;
+    box-shadow:  0 12px #11aac2, 0 18px rgba(0, 0, 0, 0.4);
 }
 
 
 .btn:hover{
-    background-color: #e5dc15;
+    background-color: #15cde5;
     color: #0e80b0;
     top: 4px;
-    box-shadow: 0 8px #c2bb11, 0 14px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px #11aac2, 0 14px rgba(0, 0, 0, 0.4);
 
 }
 .btn:active{
     top: 8px;
-    box-shadow: 0 4px #c2bb11, 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px #11aac2, 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .game{

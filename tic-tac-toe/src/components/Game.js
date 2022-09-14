@@ -59,13 +59,15 @@ export default function Game() {
   
 
   return (
-    <div className={winner ? 'game disabled':'game'}>
-      <div className='game-board'>
-        <Board onClick={(i) => handleClick(i)} squares={current.squares}></Board>
-      </div>
-      <div className='game-info'>
-        <div>{status}</div>
-        <ul>{moves}</ul>
+    <div>
+      <div className={winner ? 'game disabled':'game'}>
+        <div className='game-board'>
+          <Board onClick={(i) => handleClick(i)} squares={current.squares}></Board>
+        </div>
+        <div className='game-info'>
+          <div>{status}</div>
+          <ul>{moves}</ul>
+        </div>
       </div>
     </div>
   )
